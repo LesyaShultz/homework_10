@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  display: flex;
+  min-height: 100%;
+  background-color: #fdde7e;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.column {
+  display: flex;
+  background: #ffffff;
+  height: 441;
+  width: 360px;
+  margin: 80px 20px;
+  text-align: center;
+  box-shadow: 5px 5px 5px 3px rgb(109, 100, 100);
+}
+
+article:nth-child(2) {
+  min-height: 500px;
+  margin: 50px 0px;
+}
+
+.link a {
+  text-decoration: none;
+}
+
+h1 {
+  font-family: miso;
+  font-size: 70px;
+  line-height: 24px;
+  font-weight: 700;
+  letter-spacing: 0.025em;
+  color: #02995b;
+  margin: 42px 154px;
+}
+
+h2 {
+  font-family: miso;
+  font-size: 56px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #333333;
+  margin-bottom: 50px;
+}
+
+p {
+  font-size: 20px;
+  line-height: 26px;
+  font-weight: 300;
+  letter-spacing: 0.025em;
+  color: #201f1f;
+}
+
+.content {
+  margin-left: 102px;
+  margin-right: 102px;
+}
+
+.img_coffee {
+  margin-bottom: 47px;
+}
+
+article:hover {
+  opacity: 0.5;
+}
+
+@font-face {
+  font-family: miso;
+  src: url(Miso/miso.otf);
+}
